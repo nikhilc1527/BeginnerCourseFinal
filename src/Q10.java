@@ -6,7 +6,7 @@ public class Q10 {
     }
     String b = "";
     for (int i = 0; i < a.length; i++) {
-      b += a[(i * 2) % a.length] + " ";
+      b += a[(i * 2) % a.length] + "\n";
     }
     System.out.println(b);
   }

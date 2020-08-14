@@ -19,7 +19,6 @@ public class Q9 {
       System.out.println(arr[i].f2());
     }
   }
-
   class MyClass1 {
     int a;
     public MyClass1() {
@@ -32,7 +31,6 @@ public class Q9 {
       return a / 2;
     }
   }
-
   class MyClass2 extends MyClass1 {
     public MyClass2() {
       super();
