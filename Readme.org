@@ -1,2 +1,16 @@
 * Final Quiz for Beginner Java Course 
 This is the list of questions for the final quiz for the beginners java class
+This quiz contains testing on the topics:
++ variables
++ control statements
+  + loops (for, while)
+  + conditional statements
++ arrays
++ classes
++ inheritance
++ polymorphism
++ strings
+
+For each problem, try to find out what is printed to the console between the times that the program is run and the program finishes.
+For most of them, it will be much easier if you take out a piece of paper and write down each step of what you are thinking, what the state of each variable is, etc.
+Try not to run it on your computer until you have a chance to think about your answer!
