@@ -2,12 +2,12 @@ public class Q9 {
   public static void main(String[] args) {
     Q9 obj = new Q9();
 
-    help3[] arr = new help3[6];
+    MyClass1[] arr = new MyClass1[6];
     for (int i = 0; i < arr.length; i++) {
       if (i % 2 == 0) {
-        arr[i] = obj.new help3();
+        arr[i] = obj.new MyClass1();
       } else {
-        arr[i] = obj.new help4();
+        arr[i] = obj.new MyClass2();
       }
     }
     for (int i = 0; i < arr.length; i++) {
@@ -20,9 +20,9 @@ public class Q9 {
     }
   }
 
-  class help3 {
+  class MyClass1 {
     int a;
-    public help3() {
+    public MyClass1() {
       a = 1;
     }
     public void f1() {
@@ -33,8 +33,8 @@ public class Q9 {
     }
   }
 
-  class help4 extends help3 {
-    public help4() {
+  class MyClass2 extends MyClass1 {
+    public MyClass2() {
       a = 5;
     }
     public void f1() {

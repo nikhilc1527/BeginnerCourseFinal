@@ -2,9 +2,9 @@ public class Q8 {
   public static void main(String[] args) {
     Q8 obj = new Q8();
 
-    help3[] arr = new help3[6];
+    MyClass[] arr = new MyClass[6];
     for (int i = 0; i < arr.length; i++) {
-      arr[i] = obj.new help3();
+      arr[i] = obj.new MyClass();
     }
     for (int i = 0; i < arr.length; i++) {
       for (int j = 0; j < i; j++) {
@@ -17,10 +17,10 @@ public class Q8 {
     }
   }
 
-  class help3 {
+  class MyClass {
     int a;
 
-    public help3() {
+    public MyClass() {
       a = 1;
     }
 
