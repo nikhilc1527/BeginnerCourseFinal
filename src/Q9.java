@@ -35,6 +35,7 @@ public class Q9 {
 
   class MyClass2 extends MyClass1 {
     public MyClass2() {
+      super();
       a = 5;
     }
     public void f1() {
